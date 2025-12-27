@@ -13,3 +13,13 @@ These are some screen shots of our web application that we have designed on figm
 
 ## Login Page For Users
 
+<img width="1892" height="1031" alt="Screenshot 2025-12-27 190753" src="https://github.com/user-attachments/assets/f9aca620-7d97-4a78-a2bc-b5228c5a90b1" />
+
+## Help And Support 
+
+<img width="1902" height="1030" alt="Screenshot 2025-12-27 190933" src="https://github.com/user-attachments/assets/543fecf3-f2e4-4dd1-9d70-c7214a0eb669" />
+
+## Research On Environment Factors
+
+<img width="1901" height="1023" alt="Screenshot 2025-12-27 191022" src="https://github.com/user-attachments/assets/a6b6cd88-92c9-4406-8f16-f596f787e88a" />
+<img width="1890" height="1020" alt="Screenshot 2025-12-27 191036" src="https://github.com/user-attachments/assets/f14204dd-a746-431f-8154-b05a93ae21c0" />
