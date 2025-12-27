@@ -1,17 +1,17 @@
-## SAMRAKSHA | संरक्षा☘️
+## **SAMRAKSHA | संरक्षा☘️**
 
 **Samraksha** is a community-powered platform aimed at driving environmental awareness and responsible waste management. It allows citizens to raise waste-related issues, learn about sustainable recycling methods, and play an active role in building cleaner and greener communities.
 
 ---
 
-## 🔗 Prototype
+## 🔗 **Prototype**
 
 Check out the live version of the project here:  
 🌐 https://winston8432.github.io/Samraksha/index.html
 
 ---
 
-## 📌 Used By
+## 📌 **Used By**
 
 This platform is useful for:
 
@@ -22,7 +22,7 @@ This platform is useful for:
 
 ---
 
-## 🌐 Usage of Website
+## 🌐 **Usage of Website**
 
 1. Open the Samraksha website using the demo link  
 2. Explore the homepage to understand:
@@ -35,34 +35,33 @@ This platform is useful for:
 
 ---
 
-## 🆘 Support
+## 🆘 *Support**
 
 If you need help or want to share feedback:
 
 - **Email:** samraksha.initiative@gmail.com  
-- **Phone:** 9667848736 
+
 - **GitHub:** Raise an issue in this repository  
 
 Your suggestions and contributions are always welcome.
 
 ---
 
-## 👥 Team
+## 👥 **Team**
 
 This project is developed and maintained by:
 
-- **Aditya Raj Keshri** – Team Leader  
+- **Aditya Raj Keshri**
 - **Anant Roy**  
 - **Dev Bhatt**  
 - **Aryan Kumar**
 
 ---
 
-## 📄 License
+## 📄 **License**
 
 This project is licensed under the **MIT License**.
 
 ---
 
-🌱 *Samraksha – Together for a Cleaner Tomorrow*
 
