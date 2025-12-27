@@ -35,7 +35,7 @@ This platform is useful for:
 
 ---
 
-## 🆘 *Support**
+## 🆘 **Support**
 
 If you need help or want to share feedback:
 
