@@ -4,7 +4,7 @@
 
 ---
 
-## 🔗 Demo
+## 🔗 Prototype
 
 Check out the live version of the project here:  
 🌐 https://winston8432.github.io/Samraksha/index.html
