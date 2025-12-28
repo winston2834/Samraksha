@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samraksha | संरक्षा</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="filter">
+        <nav>
+          <a href="#">Home</a>
+          <a href="service.html">Services</a>
+          <a href="facts.html">Facts And News</a>
+          <a href="about.html">About Us</a>
+          <a href="#" id="loginBtn">Log In</a>
+        </nav>
+
+        <section class="text">
+          <h1>SAMRAKSHA | संरक्षा</h1>
+          <p># OUR COUNTRY IS OUR IDENTITY... &nbsp;&nbsp; KEEP IT CLEAN</p>
+          <div class="box1" onclick="scrollToMore()">
+            <h3>Learn More</h3>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="overlay" id="overlay">
+      <div class="login-box" id="loginBox">
+        <button class="close-btn" onclick="closeLogin()">×</button>
+
+        <div id="loginForm">
+          <h2>Login</h2>
+          <div class="input-group">
+            <label>Email</label>
+            <input type="email" id="email" placeholder="Enter your email" />
+          </div>
+          <div class="input-group">
+            <label>Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+            />
+          </div>
+          <div class="remember">
+            <input type="checkbox" id="remember" /> Remember me
+          </div>
+          <button class="btn" onclick="login()">Log In</button>
+          <p class="create">Don't have an account?</p>
+          <div class="switch-link" onclick="showRegister()">Create one</div>
+        </div>
+
+        <div id="registerForm" style="display: none">
+          <h2>Create Account</h2>
+          <div class="input-group">
+            <label>Name</label>
+            <input type="text" id="regName" placeholder="Enter your name" />
+          </div>
+          <div class="input-group">
+            <label>Email</label>
+            <input type="email" id="regEmail" placeholder="Enter your email" />
+          </div>
+          <div class="input-group">
+            <label>Password</label>
+            <input
+              type="password"
+              id="regPassword"
+              placeholder="Enter password"
+            />
+          </div>
+          <div class="input-group">
+            <label>Confirm Password</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              placeholder="Confirm password"
+            />
+          </div>
+          <button class="btn" onclick="register()">Register</button>
+          <p class="reg">Already have an account?</p>
+          <div class="switch-link" onclick="showLogin()">Log in</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="more" id="moreSection">
+      <div class="text2">
+        <div class="box2">
+          <h2>Our vision at Samrakhsha</h2>
+          <span
+            >Samrakhsha is not just about awareness — it is a smart platform connecting citizens and municipal authorities. Through our website, residents can report waste issues.We focus on effective waste management, plastic reduction, recycling awareness, and cleanliness initiatives. By combining technology, community participation, and governmental support, we aim to turn waste into resources and build sustainable habits that benefit everyone.</span
+          >
+        </div>
+        <img
+          style="width: 80vh; height: 50vh; margin-top: 45px"
+          src="bc1.jpg"
+          alt="waste"
+          class="img2"
+        />
+      </div>
+
+      <div class="info-box">
+        <h2>Did You Know?</h2>
+        <ul>
+          <li>
+            The average person generates about 4.5 pounds of waste per day.
+          </li>
+          <li>
+            Recycling one ton of paper can save 17 trees and 7,000 gallons of
+            water.
+          </li>
+          <li>
+            Composting organic waste can reduce landfill waste by up to 30%.
+          </li>
+          <li>
+            E-waste is the fastest-growing waste stream globally, with over 50
+            million tons generated annually.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="boxes" style="background-color: #F5E6D3;">
+      <div class="box">
+        <img src="img1.jpg" alt="Recycling and Environmental Responsibility" />
+        <div class="box-caption">
+          <h3>Community Recycling</h3>
+          <p>
+            Recycling and environmental responsibility, emphasizing how
+            individuals can work together to properly dispose of recyclable
+            materials.
+          </div>
+        </p>
+      </div>
+
+      <div class="box">
+        <img src="img2.jpg" alt="Waste Segregation Guide" />
+        <div class="box-caption">
+          <h3>Waste Segregation</h3>
+          <p>
+            It visually categorizes waste into six distinct bins: Paper, Metal,
+            Plastic, E-Waste, Glass, and Organic, each with specific colors and
+            symbols.
+          </p>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="img3.jpg" alt="Air Pollution Awareness" />
+        <div class="box-caption">
+          <h3>Air Quality Alert</h3>
+          <p>
+            Highlights the dangers of air pollution and its harmful effects on
+            human health. It aims to raise awareness about the negative impact
+            of industrial emissions on air quality and encourage action to
+            reduce pollution and protect public health.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><a href="#">Email- samraksha.initiative@gmail.com</a></li>
+            <li><a href="#">Phone- 9667848736</a></li>
+            <li><a href="#">Team Leader- Aditya Raj Keshri</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Samraksha</h3>
+          <ul>
+            <li><a href="about.html">Our Mission</a></li>
+            <li><a href="about.html">Vision</a></li>
+            <li><a href="about.html">Team</a></li>
+            <li><a href="about.html">Support</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="help.html">Help And Support </a></li>
+            <li><a href="eco.html">Eco - Plus Moniter</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Facts And News</h3>
+          <ul>
+            <li><a href="facts.html">Environmental Impact</a></li>
+            <li><a href="facts.html">Waste Statistics</a></li>
+            <li><a href="facts.html">Green Initiatives</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <ul>
+            <li style="color: white;"><a href="about.html"></a>Aditya Raj Keshri </li>
+            <li style="color: white;"><a href="about.html"></a>Anant Roy </li>
+            <li style="color: white;"><a href="about.html"></a>Dev Bhatt</li>
+            <li style="color: white;"><a href="about.html"></a>Aditi Tyagi</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Samraksha | All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="server.js"></script>
+    <script src="//code.tidio.co/aamt7lfudjpqzdprfuxykvwgieuibacm.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script>
+    if (annyang) {
+  // Define commands
+  var commands = {
+    'hello': function() {
+      alert('Hello! How can I help you?');
+    },
+    'show time': function() {
+      alert('The current time is ' + new Date().toLocaleTimeString());
+    }
+  };
+
+  // Add commands to annyang
+  annyang.addCommands(commands);
+
+  // Start listening
+  annyang.start();
+}
+  </script>
+  </body>
+</html>
+
+
+
